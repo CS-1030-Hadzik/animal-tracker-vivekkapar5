@@ -43,7 +43,7 @@ The purpose of `main.py` is to create and test the `Animal` and `Dog` classes to
 4. **Implement the `__str__` Method**:
    - Return a formatted string with the following structure:
      ```
-     Kingdom: 'kingdom attribute', Name: 'name attribute', Species: 'species attribute'
+     Kingdom: {kingdom attribute}, Name: {name attribute}, Species: {species attribute}
      ```
 # Task: Implement the Dog Class
 
@@ -61,7 +61,7 @@ The purpose of `main.py` is to create and test the `Animal` and `Dog` classes to
    - Override the `__str__` method to include the `breed` attribute in the string representation.
    - Example output:
      ```
-     Kingdom: 'Animalia', Name: 'Buddy', Species: 'Canine', Breed: 'Golden Retriever'
+     Kingdom: Animalia, Name: Buddy, Species: Canine, Breed: Golden Retriever
      ```
 
 3. **Add a `speak` Method**:
@@ -80,8 +80,6 @@ The purpose of `main.py` is to create and test the `Animal` and `Dog` classes to
 
 Here’s the expected output when running the program:
 
-![Example Output](/images/output.png)
-
 The output includes:
 1. The string representation of `Animal` and `Dog` objects.
 2. The printed messages from their `speak` methods.
@@ -90,13 +88,13 @@ The output includes:
 
 
 ```plaintext
-Kingdom: 'Animalia', Name: 'Generic', Species: 'Unknown'
+Kingdom: Animalia, Name: Generic, Species: Unknown
 The animal makes a noise.
-Kingdom: 'Animalia', Name: 'Buddy', Species: 'Canine', Breed: 'Golden Retriever'
+Kingdom: Animalia, Name: Buddy, Species: Canine, Breed: Golden Retriever
 The dog barks.
 All Animals:
-Kingdom: 'Animalia', Name: 'Generic', Species: 'Unknown'
-Kingdom: 'Animalia', Name: 'Buddy', Species: 'Canine', Breed: 'Golden Retriever'
+Kingdom: Animalia, Name: Generic, Species: Unknown
+Kingdom: Animalia, Name: Buddy, Species: Canine, Breed: Golden Retriever
 ```
 
 
